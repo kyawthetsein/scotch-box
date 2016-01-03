@@ -1,0 +1,21 @@
+machine:
+  timezone:
+    America/Los_Angeles
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: scotch-box
+      
+test:
+  override:
+    - phpunit test/unit-tests # use PHPunit for testing
+    
+notify:
+  webhooks:
+    - url:
+        
+        
+        
+        
