@@ -9,8 +9,7 @@ deployment:
       appname: scotch-box
       
 test:
-  override:
-    - phpunit test/unit-tests # use PHPunit for testing
+  
     
 notify:
   webhooks:
