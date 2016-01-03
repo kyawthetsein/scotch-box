@@ -1,6 +1,8 @@
 machine:
   timezone:
     America/Los_Angeles
+  php:
+    version: 5.4.5  
 
 deployment:
   staging:
@@ -11,9 +13,7 @@ deployment:
 test:
   
     
-notify:
-  webhooks:
-    - url:
+
         
         
         
